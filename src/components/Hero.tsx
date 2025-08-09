@@ -35,7 +35,7 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center xl:justify-start mb-16">
               <TrialButton 
-                text="Start 7-Day Free Trial" 
+                text="Start 24 Hour Free Trial" 
                 className="bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl hover:from-emerald-600 hover:to-teal-600 hover:shadow-emerald-500/25 transform hover:scale-105 transition-all duration-200"
               />
               <a 

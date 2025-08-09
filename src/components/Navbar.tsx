@@ -20,7 +20,7 @@ const Navbar = () => {
                 <span className="text-white font-bold text-sm">SA</span>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">
-                South African IPTV Pro
+                South African IPTV 
               </span>
             </Link>
 
