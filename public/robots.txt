@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://canadianiptvservices.ca
+
+# Sitemaps
+Sitemap: https://canadianiptvservices.ca/sitemap.xml
