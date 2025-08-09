@@ -2,7 +2,7 @@
 const { blogPosts } = require('./src/data/blogs');
 
 module.exports = {
-  siteUrl: 'https://canadianiptvservices.ca',
+  siteUrl: 'https://southafricaniptvservices.co.za',
   generateRobotsTxt: true,
   sitemapSize: 7000,
   exclude: ['/admin/*'],
@@ -21,7 +21,7 @@ module.exports = {
       const cleanId = post.id.replace(/^https?:\/\/[^/]+\/blogs\//, '');
 
       return {
-        loc: `https://canadianiptvservices.ca/blogs/${cleanId}`,
+        loc: `https://southafricaniptvservices.co.za/blogs/${cleanId}`,
         lastmod: new Date(post.date).toISOString(),
         changefreq: 'daily',
         priority: 0.7,
