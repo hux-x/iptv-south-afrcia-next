@@ -4,19 +4,6 @@ import Image from 'next/image';
 const IPTVPanels = () => {
   const iptvPanels = [
     {
-      id: 1,
-      title: "Local SA Channels",
-      description: "Complete access to all South African broadcasting channels including SABC 1, 2, 3, eTV, Kyknet, and regional community channels with Afrikaans and Zulu content.",
-      image: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37",
-      features: [
-        "All SABC channels in HD quality",
-        "eTV and M-Net programming", 
-        "kykNET & Afrikaans content",
-        "Regional language channels (Zulu, Xhosa)",
-        "Local news and weather updates",
-        "Educational and documentary programming"
-      ]
-    },  {
       id: 7,
       title: "DSTV Alternative",
       description: "Enjoy the full DSTV experience without the high monthly fees. All your favourite DSTV channels, movies, sports, and shows in one affordable IPTV package.",
@@ -31,6 +18,20 @@ const IPTVPanels = () => {
         "High-definition streaming quality"
       ]
     },
+    {
+      id: 1,
+      title: "Local SA Channels",
+      description: "Complete access to all South African broadcasting channels including SABC 1, 2, 3, eTV, Kyknet, and regional community channels with Afrikaans and Zulu content.",
+      image: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37",
+      features: [
+        "All SABC channels in HD quality",
+        "eTV and M-Net programming", 
+        "kykNET & Afrikaans content",
+        "Regional language channels (Zulu, Xhosa)",
+        "Local news and weather updates",
+        "Educational and documentary programming"
+      ]
+    },  
     {
       id: 2,
       title: "Sports Excellence",
