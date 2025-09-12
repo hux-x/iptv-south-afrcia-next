@@ -25,7 +25,7 @@ export const metadata = {
     'streaming business SA'
   ],
   authors: [{ name: 'StreamPro SA Reseller Team' }],
-  metadataBase: new URL('https://southafricaniptvservices.co.za'),
+  metadataBase: new URL('https://watchiptvsouthafrica.co.za'),
   alternates: {
     canonical: '/reseller',
   },
@@ -33,7 +33,7 @@ export const metadata = {
     title: 'IPTV Reseller Program South Africa - Start Your Streaming Business',
     description:
       'Join StreamPro SA\'s profitable IPTV reseller program. Bulk pricing in ZAR, full training, marketing support. Tap into SA\'s growing demand for DSTV alternatives.',
-    url: 'https://southafricaniptvservices.co.za/reseller',
+    url: 'https://watchiptvsouthafrica.co.za/reseller',
     type: 'website',
     locale: 'en_ZA',
     siteName: 'StreamPro SA IPTV Services',
@@ -91,13 +91,13 @@ export default function Page() {
               "@type": "BusinessOpportunity",
               "name": "StreamPro SA IPTV Reseller Program",
               "description": "Profitable IPTV reseller program in South Africa with bulk pricing, training, and marketing support",
-              "url": "https://southafricaniptvservices.co.za/reseller",
+              "url": "https://watchiptvsouthafrica.co.za/reseller",
               "image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=1200&h=630&fit=crop",
               "provider": {
                 "@type": "Organization",
                 "name": "StreamPro SA",
                 "url": "https://southafricaniptvservices.co.za",
-                "logo": "https://southafricaniptvservices.co.za/logo.png",
+                "logo": "https://watchiptvsouthafrica.co.za/favicon.ico",
                 "contactPoint": {
                   "@type": "ContactPoint",
                   "telephone": "+27-82-123-4567",
@@ -197,13 +197,13 @@ export default function Page() {
               "@context": "https://schema.org",
               "@type": "WebPage",
               "name": "IPTV Reseller Program South Africa",
-              "url": "https://southafricaniptvservices.co.za/reseller",
+              "url": "https://watchiptvsouthafrica.co.za/reseller",
               "description": "Start your IPTV business in South Africa with StreamPro SA's reseller program",
               "inLanguage": "en-ZA",
               "isPartOf": {
                 "@type": "WebSite",
                 "name": "StreamPro SA IPTV Services",
-                "url": "https://southafricaniptvservices.co.za"
+                "url": "https://watchiptvsouthafrica.co.za"
               },
               "breadcrumb": {
                 "@type": "BreadcrumbList",
@@ -212,13 +212,13 @@ export default function Page() {
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Home",
-                    "item": "https://southafricaniptvservices.co.za/"
+                    "item": "https://watchiptvsouthafrica.co.za/"
                   },
                   {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Reseller Program",
-                    "item": "https://southafricaniptvservices.co.za/reseller"
+                    "item": "https://watchiptvsouthafrica.co.za/reseller"
                   }
                 ]
               },
@@ -273,8 +273,8 @@ export default function Page() {
               "@type": "Organization",
               "name": "StreamPro SA IPTV Reseller Program",
               "alternateName": "South African IPTV Business Opportunity",
-              "url": "https://southafricaniptvservices.co.za/reseller",
-              "logo": "https://southafricaniptvservices.co.za/reseller-logo.png",
+              "url": "https://watchiptvsouthafrica.co.za/reseller",
+              "logo": "https://watchiptvsouthafrica.co.za/favicon.ico",
               "description": "Leading IPTV reseller program in South Africa offering training, support, and profitable business opportunities",
               "foundingLocation": {
                 "@type": "Country",
@@ -398,7 +398,7 @@ export default function Page() {
               // Track reseller page view
               gtag('event', 'page_view', {
                 'page_title': 'IPTV Reseller Program SA',
-                'page_location': 'https://southafricaniptvservices.co.za/reseller',
+                'page_location': 'https://watchiptvsouthafrica.co.za/reseller',
                 'content_group1': 'Business Opportunity',
                 'content_group2': 'Reseller Program',
                 'country': 'South Africa'

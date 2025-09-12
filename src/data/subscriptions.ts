@@ -13,8 +13,8 @@ export const subscriptions: Subscription[] = [
     id: "essential",
     title: "Essential Plan",
     description: "Perfect for casual viewers",
-    price: "CA$29.99", // £23.59 × 1.75
-    duration: "3 months",
+    price: "150 R", // £23.59 × 1.75
+    duration: "1 month",
     features: [
       "15,000+ Live Channels",
       "All Premium Sports & Movies",
@@ -30,8 +30,8 @@ export const subscriptions: Subscription[] = [
     id: "premium",
     title: "Premium Plan",
     description: "Most popular choice for families",
-    price: "CA$49.99", // £41.29 × 1.75
-    duration: "6 months",
+    price: "400 R", // £41.29 × 1.75
+    duration: "3 months",
     features: [
       "15,000+ Live Channels",
       "All Premium Sports & Movies",
@@ -47,7 +47,25 @@ export const subscriptions: Subscription[] = [
     id: "ultimate",
     title: "Ultimate Plan",
     description: "Complete entertainment solution",
-    price: "CA$89.00", // £70.79 × 1.75
+    price: "700 R", // £70.79 × 1.75
+    duration: "6 months",
+    features: [
+      "15,000+ Live Channels",
+      "All Premium Sports & Movies",
+      "14-Day Catch-Up TV",
+      "4K Ultra HD + HDR",
+      "Unlimited Device Connections",
+      "Advanced Features & EPG",
+      "Priority Customer Support",
+      "Free Setup Assistance"
+    ],
+    popular: true
+  },
+    {
+    id: "ultimate-plus",
+    title: "Ultimate Plus Plan",
+    description: "Complete entertainment solution",
+    price: "1200 R", // £70.79 × 1.75
     duration: "12 months",
     features: [
       "15,000+ Live Channels",

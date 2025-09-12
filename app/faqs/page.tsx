@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'FAQs | Canadian IPTV Services',
     description: 'Explore frequently asked questions and answers about StreamPro IPTV. Get the support you need for setup, pricing, and more.',
-    url: 'https://canadianiptvservices.ca/faqs',
+    url: 'https://watchiptvsouthafrica.co.za/faqs',
     siteName: 'Canadian IPTV Services',
     type: 'website',
   },

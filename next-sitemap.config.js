@@ -1,8 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const { blogPosts } = require('./src/data/blogs');
 
 module.exports = {
-  siteUrl: 'https://southafricaniptvservices.co.za',
+  siteUrl: 'https://watchiptvsouthafrica.co.za',
   generateRobotsTxt: true,
   sitemapSize: 7000,
   exclude: ['/admin/*'],
@@ -16,16 +15,4 @@ module.exports = {
     };
   },
 
-  additionalPaths: async () => {
-    return blogPosts.map((post) => {
-      const cleanId = post.id.replace(/^https?:\/\/[^/]+\/blogs\//, '');
-
-      return {
-        loc: `https://southafricaniptvservices.co.za/blogs/${cleanId}`,
-        lastmod: new Date(post.date).toISOString(),
-        changefreq: 'daily',
-        priority: 0.7,
-      };
-    });
-  },
 };

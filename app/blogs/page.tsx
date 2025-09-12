@@ -47,7 +47,7 @@ export const metadata = {
     title: 'IPTV Blog & Resources | South African IPTV Services - StreamPro SA',
     description:
       'Discover comprehensive IPTV guides, streaming tutorials, and industry insights for South Africa. Learn about DStv alternatives, load shedding streaming solutions, and local IPTV services.',
-    url: 'https://southafricaniptvservices.co.za/blogs',
+    url: 'https://watchiptvsouthafrica.co.za/blogs',
     siteName: 'South African IPTV Services',
     type: 'website',
     locale: 'en_ZA',
@@ -69,12 +69,7 @@ export const metadata = {
     site: '@StreamProSA',
   },
   alternates: {
-    canonical: 'https://southafricaniptvservices.co.za/blogs',
-    languages: {
-      'en-ZA': 'https://southafricaniptvservices.co.za/blogs',
-      'af-ZA': 'https://southafricaniptvservices.co.za/af/blogs',
-      'zu-ZA': 'https://southafricaniptvservices.co.za/zu/blogs',
-    },
+    canonical: 'https://watchiptvsouthafrica.co.zaa/blogs',
   },
   verification: {
     google: 'your-google-site-verification-code',
@@ -94,22 +89,22 @@ export default function BlogPage() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Blog',
-    '@id': 'https://southafricaniptvservices.co.za/blogs#blog',
+    '@id': 'https://watchiptvsouthafrica.co.za/blogs#blog',
     name: 'StreamPro IPTV Blog - South African IPTV Services',
     headline: 'IPTV Blog & Resources | South African IPTV Services',
     description: 'Expert insights, technical guides, and industry trends for IPTV streaming technology in South Africa. DStv alternatives and load shedding streaming solutions.',
-    url: 'https://southafricaniptvservices.co.za/blogs',
+    url: 'https://watchiptvsouthafrica.co.za/blogs',
     inLanguage: 'en-ZA',
     dateModified: currentDate,
     datePublished: '2024-01-01T00:00:00+02:00',
     publisher: {
       '@type': 'Organization',
-      '@id': 'https://southafricaniptvservices.co.za#organization',
+      '@id': 'https://watchiptvsouthafrica.co.za/#organization',
       name: 'StreamPro IPTV South Africa',
-      url: 'https://southafricaniptvservices.co.za',
+      url: 'https://watchiptvsouthafrica.co.za',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://southafricaniptvservices.co.za/logo.png',
+        url: 'https://watchiptvsouthafrica.co.za',
         width: 300,
         height: 100,
       },
@@ -135,7 +130,7 @@ export default function BlogPage() {
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': 'https://southafricaniptvservices.co.za/blogs',
+      '@id': 'https://watchiptvsouthafrica.co.za/blogs',
     },
     audience: {
       '@type': 'Audience',
@@ -164,20 +159,20 @@ export default function BlogPage() {
     keywords: 'IPTV South Africa, DStv alternatives, streaming SA, load shedding streaming, South African IPTV providers',
     blogPost: blogPosts.map((post) => ({
       '@type': 'BlogPosting',
-      '@id': `https://southafricaniptvservices.co.za/blogs/${post.id}#blogpost`,
+      '@id': `https://watchiptvsouthafrica.co.za/blogs/${post.id}#blogpost`,
       headline: post.title,
       description: post.excerpt,
-      url: `https://southafricaniptvservices.co.za/blogs/${post.id}`,
+      url: `https://watchiptvsouthafrica.co.za/blogs/${post.id}`,
       datePublished: post.date || '2024-01-01T00:00:00+02:00',
       dateModified: post.date || currentDate,
       inLanguage: 'en-ZA',
       author: {
         '@type': 'Person',
         name: post.author || 'StreamPro SA Team',
-        url: 'https://southafricaniptvservices.co.za/about',
+        url: 'hhttps://watchiptvsouthafrica.co.za/about',
       },
       publisher: {
-        '@id': 'https://southafricaniptvservices.co.za#organization',
+        '@id': 'https://watchiptvsouthafrica.co.za/#organization',
       },
       image: {
         '@type': 'ImageObject',
@@ -187,7 +182,7 @@ export default function BlogPage() {
       },
       mainEntityOfPage: {
         '@type': 'WebPage',
-        '@id': `https://southafricaniptvservices.co.za/blogs/${post.id}`,
+        '@id': `https://watchiptvsouthafrica.co.za/blogs/${post.id}`,
       },
       articleSection: 'IPTV Guides',
       wordCount:  800,
@@ -210,13 +205,13 @@ export default function BlogPage() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://southafricaniptvservices.co.za',
+        item: 'https://watchiptvsouthafrica.co.za',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'IPTV Blog',
-        item: 'https://southafricaniptvservices.co.za/blogs',
+        item: 'https://watchiptvsouthafrica.co.za',
       },
     ],
   };

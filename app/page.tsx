@@ -25,13 +25,13 @@ export const metadata = {
     'fibre IPTV SA'
   ],
   authors: [{ name: 'StreamPro SA' }],
-  metadataBase: new URL('https://southafricaniptvservices.co.za'),
+  metadataBase: new URL('https://watchiptvsouthafrica.co.za'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
-    url: 'https://southafricaniptvservices.co.za/',
+    url: 'https://watchiptvsouthafrica.co.za/',
     title: 'Best IPTV South Africa 2024 - Save R6000+ vs DSTV Premium',
     description:
       'Premium IPTV with 15,000+ channels including SABC, SuperSport, international content. 4K quality, works during load shedding. Best IPTV alternative to DSTV in SA.',
@@ -92,8 +92,8 @@ export default function page() {
               "name": "StreamPro SA IPTV Services",
               "alternateName": "South African IPTV Services",
               "description": "Premium IPTV services in South Africa - Best alternative to DSTV with local and international channels",
-              "url": "https://southafricaniptvservices.co.za/",
-              "logo": "https://southafricaniptvservices.co.za/logo.png",
+              "url": "https://watchiptvsouthafrica.co.za/",
+              "logo": "https://watchiptvsouthafrica.co.za/logo.png",
               "image": "https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=1200&h=630&fit=crop",
               "contactPoint": [
                 {
@@ -193,7 +193,7 @@ export default function page() {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "StreamPro SA IPTV Services",
-              "url": "https://southafricaniptvservices.co.za/",
+              "url": "https://watchiptvsouthafrica.co.za/",
               "description": "Best IPTV service in South Africa - Premium streaming alternative to DSTV",
               "publisher": {
                 "@type": "Organization",
@@ -201,7 +201,7 @@ export default function page() {
               },
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://southafricaniptvservices.co.za/search?q={search_term_string}",
+                "target": "https://watchiptvsouthafrica.co.zaa/search?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               },
               "inLanguage": "en-ZA"
@@ -210,8 +210,8 @@ export default function page() {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "name": "StreamPro SA IPTV Services",
-              "@id": "https://southafricaniptvservices.co.za/",
-              "url": "https://southafricaniptvservices.co.za/",
+              "@id": "https://watchiptvsouthafrica.co.za/",
+              "url": "https://watchiptvsouthafrica.co.za/",
               "telephone": "+27-82-123-4567",
               "address": {
                 "@type": "PostalAddress",
@@ -252,19 +252,19 @@ export default function page() {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://southafricaniptvservices.co.za/"
+                  "item": "https://watchiptvsouthafrica.co.za"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "IPTV Services",
-                  "item": "https://southafricaniptvservices.co.za/services"
+                  "item": "https://watchiptvsouthafrica.co.za"
                 },
                 {
                   "@type": "ListItem",
                   "position": 3,
                   "name": "South Africa",
-                  "item": "https://southafricaniptvservices.co.za/south-africa"
+                  "item": "https://watchiptvsouthafrica.co.za/"
                 }
               ]
             },
