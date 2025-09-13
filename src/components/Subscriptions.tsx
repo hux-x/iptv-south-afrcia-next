@@ -2,55 +2,77 @@ import TrialButton from './TrialButton';
 
 export default function Subscriptions() {
   const subscriptions = [
+  {
+    id: "essential",
+    title: "Essential Plan",
+    description: "Perfect for casual viewers",
+    price: "150 R", // £23.59 × 1.75
+    duration: "1 month",
+    features: [
+      "15,000+ Live Channels",
+      "All Premium Sports & Movies",
+      "14-Day Catch-Up TV",
+      "4K Ultra HD + HDR",
+      "Unlimited Device Connections",
+      "Advanced Features & EPG",
+      "Priority Customer Support",
+      "Free Setup Assistance"
+    ]
+  },
+  {
+    id: "premium",
+    title: "Premium Plan",
+    description: "Most popular choice for families",
+    price: "400 R", // £41.29 × 1.75
+    duration: "3 months",
+    features: [
+      "15,000+ Live Channels",
+      "All Premium Sports & Movies",
+      "14-Day Catch-Up TV",
+      "4K Ultra HD + HDR",
+      "Unlimited Device Connections",
+      "Advanced Features & EPG",
+      "Priority Customer Support",
+      "Free Setup Assistance"
+    ]
+  },
+  {
+    id: "ultimate",
+    title: "Ultimate Plan",
+    description: "Complete entertainment solution",
+    price: "700 R", // £70.79 × 1.75
+    duration: "6 months",
+    features: [
+      "15,000+ Live Channels",
+      "All Premium Sports & Movies",
+      "14-Day Catch-Up TV",
+      "4K Ultra HD + HDR",
+      "Unlimited Device Connections",
+      "Advanced Features & EPG",
+      "Priority Customer Support",
+      "Free Setup Assistance"
+    ],
+    popular: true
+  },
     {
-      id: 1,
-      title: "Basic SA",
-      description: "Perfect for individuals exploring IPTV in South Africa",
-      price: "R199",
-      duration: "month",
-      popular: false,
-      features: [
-        "5,000+ Live Channels incl. SABC & eTV",
-        "Local SA Channels in HD",
-        "Basic Sports (Rugby & Cricket)",
-        "2 Device Connections",
-        "10,000+ Movies & Series",
-        "24/7 Support (English & Afrikaans)",
-      ]
-    },
-    {
-      id: 2,
-      title: "Premium SA",
-      description: "Most popular choice for South African families",
-      price: "R349",
-      duration: "month",
-      popular: true,
-      features: [
-        "12,000+ Live Channels",
-        "All SA Premium Channels",
-        "4K Ultra HD Streaming",
-        "5 Device Connections",
-        "Complete Sports Package",
-        "20,000+ Movies & Series",
-      ]
-    },
-    {
-      id: 3,
-      title: "Ultimate SA",
-      description: "Complete entertainment solution for power users",
-      price: "R499",
-      duration: "month",
-      popular: false,
-      features: [
-        "15,000+ Live Channels Worldwide",
-        "All International Premium",
-        "8K Ready Streaming",
-        "Unlimited Devices",
-        "Premium Sports & PPV Events",
-        "30,000+ Movies & Series",
-      ]
-    }
-  ];
+    id: "ultimate-plus",
+    title: "Ultimate Plus Plan",
+    description: "Complete entertainment solution",
+    price: "1200 R", // £70.79 × 1.75
+    duration: "12 months",
+    features: [
+      "15,000+ Live Channels",
+      "All Premium Sports & Movies",
+      "14-Day Catch-Up TV",
+      "4K Ultra HD + HDR",
+      "Unlimited Device Connections",
+      "Advanced Features & EPG",
+      "Priority Customer Support",
+      "Free Setup Assistance"
+    ],
+    popular: true
+  }
+];
 
   return (
     <section className="py-16 bg-gradient-to-br from-slate-950 via-slate-900 to-emerald-950" id="subscriptions">
