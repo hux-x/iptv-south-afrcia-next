@@ -2,6 +2,20 @@ import TrialButton from './TrialButton';
 
 export default function Subscriptions() {
   const subscriptions = [
+    {
+    id: "free-trial",
+    title: "24 Hour Free Trial",
+    description: "A taste of our full service",
+    price: "150 R", // £23.59 × 1.75
+    duration: "24 hours",
+    features: [
+      "15,000+ Live Channels",
+      "All Premium Sports & Movies",
+      "4K Ultra HD + HDR",
+      "Priority Customer Support",
+      "Free Setup Assistance"
+    ]
+  },
   {
     id: "essential",
     title: "Essential Plan",
