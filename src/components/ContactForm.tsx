@@ -13,7 +13,7 @@ export default function ContactForm() {
 
     const text = `*IPTV Inquiry from Contact Form*\n\n*Name:* ${fullName}\n*Email:* ${email}\n*Subject:* ${subject}\n*Message:* ${message}`;
     const encodedText = encodeURIComponent(text);
-    const phoneNumber = '923218542050';
+    const phoneNumber = '923020548889';
 
     window.open(`https://wa.me/${phoneNumber}?text=${encodedText}`, '_blank');
   };
