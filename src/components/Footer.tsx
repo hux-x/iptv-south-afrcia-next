@@ -132,13 +132,13 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://wa.me/27123456789" 
+                  href="https://wa.me/923020548889" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-slate-400 hover:text-white transition-colors flex items-center group"
                 >
                   <span className="w-2 h-2 bg-cyan-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
-                  WhatsApp: +27 12 345 6789
+                  WhatsApp: +923020548889
                 </a>
               </li>
               <li>

@@ -6,7 +6,7 @@ export default function Subscriptions() {
     id: "free-trial",
     title: "24 Hour Free Trial",
     description: "A taste of our full service",
-    price: "150 R", // £23.59 × 1.75
+    price: "0 R", // £23.59 × 1.75
     duration: "24 hours",
     features: [
       "15,000+ Live Channels",

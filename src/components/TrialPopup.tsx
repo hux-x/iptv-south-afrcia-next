@@ -48,7 +48,7 @@ const TrialPopup: React.FC<TrialPopupProps> = ({ visible, onClose }) => {
           {generat_text}
         </p>
         <a
-          href="https://wa.me/923218542050"
+          href="https://wa.me/923020548889"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 rounded-xl transition"
