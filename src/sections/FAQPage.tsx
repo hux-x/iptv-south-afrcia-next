@@ -3,6 +3,7 @@ import { faqs } from '../data/faqs';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import FAQAccordion from '../components/FAQAccordion';
+import TrialButton from '../components/TrialButton';
 
 const FAQPage = () => {
   const categories = ['All', ...Array.from(new Set(faqs.map(faq => faq.category)))];
@@ -45,9 +46,8 @@ const FAQPage = () => {
             <p className="text-slate-300 mb-6">
               Our support team is available <span className="text-emerald-400 font-semibold">24/7</span> to help you.
             </p>
-            <button className="bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-10 py-4 rounded-2xl font-bold text-lg shadow-2xl hover:from-emerald-600 hover:to-teal-600 hover:shadow-emerald-500/25 transform hover:scale-105 transition-all duration-200">
-              Contact Support
-            </button>
+         
+            <TrialButton text='Contact Support' className={"bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-10 py-4 rounded-2xl font-bold text-lg shadow-2xl hover:from-emerald-600 hover:to-teal-600 hover:shadow-emerald-500/25 transform hover:scale-105 transition-all duration-200"}/>
           </div>
         </div>
       </div>
